@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    // font-family: 
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    // max-width:
+    // margin: 0 auto; 
+}
+
+
+
+//header
+@import './header.scss';
+//home
+@import './home.scss';
+//about
+@import './about.scss';
+//feature
+@import './feature.scss';
+//testimonials
+@import './testimonials.scss';
+//contact
+@import './contact.scss';
+//footer
+@import './footer.scss';
+
+
+
+
+
