@@ -25,12 +25,15 @@
 * Footer: **Long**
      ###### To-do description: 
      ![image](https://scontent.xx.fbcdn.net/v/t1.15752-9/219145981_540411620725235_7462189426080366008_n.png?_nc_cat=109&ccb=1-3&_nc_sid=aee45a&_nc_ohc=Qcjkpr9eWZAAX8M5Vk3&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=1ff31ae0b63a7ab3ac6d521066682d0a&oe=60FB4C32)
+
+### Live view example
+[LAVA](https://templatemo.com/live/templatemo_540_lava_landing_page)
 ## Contributing 
-- Mentor: [Lê Điệp](facebook.com/nomadic.lodestar)
-- Member: [Quang Minh](facebook.com/minh.tranquang.121)
-- Member: [Ngọc Long](facebook.com/ngoclong2904)
-- Member: [Tuấn Kiệt](facebook.com/tuankiet.truongle.22)
-- Member: [Đức Bình](facebook.com/db.fpt.02)
+- Mentor: [Lê Điệp](https://www.facebook.com/nomadic.lodestar)
+- Member: [Quang Minh](https://www.facebook.com/minh.tranquang.121)
+- Member: [Ngọc Long](https://www.facebook.com/ngoclong2904)
+- Member: [Tuấn Kiệt](https://www.facebook.com/tuankiet.truongle.22)
+- Member: [Đức Bình](https://www.facebook.com/db.fpt.02)
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://gulpjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://pugjs.org" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/pug.svg" alt="pug" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> </p>
 
