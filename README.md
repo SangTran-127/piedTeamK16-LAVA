@@ -19,7 +19,7 @@
 * Testimonials: **Bình**
      ###### To-do description: 
      ![image](https://scontent.xx.fbcdn.net/v/t1.15752-9/218400310_2015472615257157_2996102969435348712_n.png?_nc_cat=101&ccb=1-3&_nc_sid=aee45a&_nc_ohc=OvyxjAqd7bAAX8ztUrG&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=e51b07eb78c5cd323d5f70a7e6c9f400&oe=60F9974B)
-* Contact: **Kiệt**
+* Contact: **Bình**
      ###### To-do description: 
      ![image](https://scontent.xx.fbcdn.net/v/t1.15752-9/216269320_350346499798789_8103902328518749496_n.png?_nc_cat=101&ccb=1-3&_nc_sid=aee45a&_nc_ohc=xptGb5ed9VsAX-foFA1&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=0c7c12df65403b28d6dc2dc3147eac18&oe=60F9A7B9) 
 * Footer: **Long**
