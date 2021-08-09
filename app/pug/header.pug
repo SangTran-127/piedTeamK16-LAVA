@@ -1,32 +1,29 @@
-<header class="header-area header-sticky background-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav"> 
-                        <a href="index.html" class="logo">
-                            Lava
-                        </a>
-                        <ul class="nav" style="display: none;">
-                            <li class="scroll-to-section"><a href="#welcome" class="menu-item">Home</a></li>
-                            <li class="scroll-to-section"><a href="#about" class="menu-item">About</a></li>
-                            <li class="scroll-to-section"><a href="#testimonials" class="menu-item">Testimonials</a>
-                            </li>
-                            <li class="submenu">
-                                <a href="javascript:;">Drop Down</a>
-                                <ul>
-                                    <li><a href="" class="menu-item">About Us</a></li>
-                                    <li><a href="" class="menu-item">Features</a></li>
-                                    <li><a href="" class="menu-item">FAQ's</a></li>
-                                    <li><a href="" class="menu-item">Blog</a></li>
-                                </ul>
-                            </li>
-                            <li class="scroll-to-section"><a href="#contact-us" class="menu-item">Contact Us</a></li>
-                        </ul>
-                        <a class="menu-trigger">
-                            <span>Menu</span>
-                        </a>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+header.header-area.header-sticky.background-header
+  .container
+    .row
+      .col-12
+        nav.main-nav
+          a.logo(href='index.html')
+            | Lava
+          ul.nav(style='display: none;')
+            li.scroll-to-section
+              a.menu-item(href='#welcome') Home
+            li.scroll-to-section
+              a.menu-item(href='#about') About
+            li.scroll-to-section
+              a.menu-item(href='#testimonials') Testimonials
+            li.submenu
+              a(href='javascript:;') Drop Down
+              ul
+                li
+                  a.menu-item(href='') About Us
+                li
+                  a.menu-item(href='') Features
+                li
+                  a.menu-item(href='') FAQ&apos;s
+                li
+                  a.menu-item(href='') Blog
+            li.scroll-to-section
+              a.menu-item(href='#contact-us') Contact Us
+          a.menu-trigger
+            span Menu
