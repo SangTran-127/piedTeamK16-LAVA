@@ -1,12 +1,12 @@
 .section{
-    height: 65.2rem;
+    // height: 65.2rem;
     // background-color: aquamarine;
     padding: 100px 0px;
     position: relative;
     z-index: 9;
     display: block;
     .container{
-        height: 45.2rem;
+        // height: 45.2rem;
         width: 100%;
         display: block;
         padding-right: 15px;
@@ -84,7 +84,7 @@
                         }
                         a{
                             display: inline-block;
-                            height: 51px;
+                            // height: 51px;
                             font-weight: 10px;
                             margin: 35px 0px 0px;  
 
@@ -107,6 +107,9 @@
 }
 
 @media (min-width: 0px){
+    .container{
+        padding: 0 !important;
+    }
     .col{
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
