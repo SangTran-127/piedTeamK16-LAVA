@@ -1,13 +1,21 @@
-header.header-area.header-sticky.background-header
+//
+  <div id="preloader">
+  <div class="jumper">
+  <div></div>
+  <div></div>
+  <div></div>
+  </div>
+  </div>
+header.header-area.header-sticky
   .container
     .row
       .col-12
         nav.main-nav
           a.logo(href='index.html')
             | Lava
-          ul.nav(style='display: none;')
+          ul.nav
             li.scroll-to-section
-              a.menu-item(href='#welcome') Home
+              a.menu-item.active(href='#welcome') Home
             li.scroll-to-section
               a.menu-item(href='#about') About
             li.scroll-to-section
