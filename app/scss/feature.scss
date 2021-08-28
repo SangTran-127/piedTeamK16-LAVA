@@ -73,7 +73,6 @@
 
 @media (max-width:1200px) {
     .feature__container {
-        display: inline-block;
         width: 960px;
     }
 
@@ -81,21 +80,18 @@
         width: 39%;
         height: 82%;
     }
-    .feature__right{
-        width: 100%;
-    }
 }
 
 @media (max-width: 991px) {
     .feature__container {
-        display: block;
+        display: inline-block;
         width: 100%;
-        height: 100%;
+        height: 200%;
     }
 
     .feature__left{
         width: 100%;
-        height: 102%;
+        height: 51%;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -103,10 +99,11 @@
 
     .feature__right{
         width: 100%;
-        height: 100%;
+        height: 50%;
         display: flex;
         justify-content: center;
-        left: 2px;
+        left: 4px;
+        margin-top: 2rem;
     }
 
     .feature__item--1 {
