@@ -381,18 +381,7 @@ body {
   text-decoration: none;
 }
 
-@media (max-width: 1200px) {
-  .feature__container {
-    width: 960px;
-  }
-
-  .feature__left {
-    width: 39%;
-    height: 82%;
-  }
-}
 @media (max-width: 991px) {
-  
   .bg {
     height: 150vh;
   }
@@ -400,12 +389,12 @@ body {
   .feature__container {
     display: inline-block;
     width: 100%;
-    height: 200%;
+    height: 100%;
   }
 
   .feature__left {
     width: 100%;
-    height: 51%;
+    height: 102%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -413,14 +402,9 @@ body {
 
   .feature__right {
     width: 100%;
-    height: 50%;
+    height: 100%;
     display: flex;
-<<<<<<< HEAD
-    justify-content: center;
-    left: 4px;
-=======
     left: 2rem;
->>>>>>> 31fb16c4e01965a598250b272cb57ab536d7afe5
     margin-top: 2rem;
   }
 
