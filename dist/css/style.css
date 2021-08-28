@@ -160,11 +160,9 @@ body {
   padding: 100px 0px;
   position: relative;
   z-index: 9;
-  display: block;
 }
 .section .container {
   width: 100%;
-  display: block;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -175,8 +173,6 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-right: -15px;
-  margin-left: -15px;
   line-height: 1.5;
   color: #212529;
   text-align: left;
@@ -188,6 +184,7 @@ body {
   position: relative;
   padding: 0px 15px;
   display: inline;
+  margin: 0;
 }
 .section .container .row .col .features-item {
   display: inline-block;
@@ -260,15 +257,12 @@ body {
   .container {
     padding: 0 !important;
   }
-
-  .col {
-    -ms-flex: 0 0 100%;
+  .container .col {
     flex: 0 0 100%;
     width: 100% !important;
     margin-bottom: 50px !important;
   }
-
-  .features-item {
+  .container .col .features-item {
     width: 100% !important;
   }
 }
@@ -276,15 +270,11 @@ body {
   .container {
     max-width: 540px;
   }
-
-  .col {
-    -ms-flex: 0 0 100%;
+  .container .col {
     flex: 0 0 100%;
     width: 100% !important;
-    margin-bottom: 50px !important;
   }
-
-  .features-item {
+  .container .col .features-item {
     width: 100% !important;
   }
 }
@@ -292,20 +282,14 @@ body {
   .container {
     max-width: 720px;
   }
-
-  .col {
-    -ms-flex: 0 0 50%;
+  .container .col {
+    margin-bottom: 50px;
     flex: 0 0 50%;
-    max-width: 50% !important;
-    margin-bottom: 50px !important;
   }
-
-  .features-item {
-    margin: 0px 0px 50px !important;
+  .container .col .features-item {
     overflow: hidden;
   }
-
-  .features-icon {
+  .container .col .features-item .features-icon {
     overflow: hidden;
   }
 }
@@ -313,9 +297,8 @@ body {
   .container {
     max-width: 960px;
   }
-
-  .col {
-    -ms-flex: 0 0 33.333333%;
+  .container .col {
+    margin: 0 !important;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
@@ -401,7 +384,6 @@ body {
 @media (max-width: 1200px) {
   .feature__container {
     width: 960px;
-    align-items: center;
   }
 
   .feature__left {
@@ -411,14 +393,14 @@ body {
 }
 @media (max-width: 991px) {
   .feature__container {
-    display: block;
+    display: inline-block;
     width: 100%;
-    height: 100%;
+    height: 200%;
   }
 
   .feature__left {
     width: 100%;
-    height: 102%;
+    height: 51%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -426,10 +408,11 @@ body {
 
   .feature__right {
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
-    left: 2px;
+    left: 4px;
+    margin-top: 2rem;
   }
 
   .feature__item--1 {
