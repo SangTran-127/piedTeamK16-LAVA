@@ -410,8 +410,13 @@ body {
   }
 }
 @media (max-width: 991px) {
+  
+  .bg {
+    height: 150vh;
+  }
+
   .feature__container {
-    display: block;
+    display: inline-block;
     width: 100%;
     height: 100%;
   }
@@ -428,8 +433,8 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    left: 2px;
+    left: 2rem;
+    margin-top: 2rem;
   }
 
   .feature__item--1 {
