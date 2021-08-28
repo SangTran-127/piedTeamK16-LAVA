@@ -392,6 +392,11 @@ body {
   }
 }
 @media (max-width: 991px) {
+  
+  .bg {
+    height: 150vh;
+  }
+
   .feature__container {
     display: inline-block;
     width: 100%;
@@ -410,8 +415,12 @@ body {
     width: 100%;
     height: 50%;
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     left: 4px;
+=======
+    left: 2rem;
+>>>>>>> 31fb16c4e01965a598250b272cb57ab536d7afe5
     margin-top: 2rem;
   }
 
