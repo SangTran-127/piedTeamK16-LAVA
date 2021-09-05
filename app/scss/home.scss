@@ -1,36 +1,3 @@
-// line-height: 1.5;
-// color: #212529;
-// text-align: left;
-// background-color: #fff;
-// }
-
-// :root {
-// --blue: #007bff;
-// --indigo: #6610f2;
-// --purple: #6f42c1;
-// --pink: #e83e8c;
-// --red: #dc3545;
-// --orange: #fd7e14;
-// --yellow: #ffc107;
-// --green: #28a745;
-// --teal: #20c997;
-// --cyan: #17a2b8;
-// --white: #fff;
-// --gray: #6c757d;
-// --gray-dark: #343a40;
-// --primary: #007bff;
-// --secondary: #6c757d;
-// --success: #28a745;
-// --info: #17a2b8;
-// --warning: #ffc107;
-// --danger: #dc3545;
-// --light: #f8f9fa;
-// --dark: #343a40;
-// --breakpoint-xs: 0;
-// --breakpoint-sm: 576px;
-// --breakpoint-md: 768px;
-// --breakpoint-lg: 992px;
-// --breakpoint-xl: 1200px;    
 $yellow: #ffc107;
 $dark: #343a40;
 $primary: #007bff;
@@ -59,24 +26,24 @@ $secondary: #6c757d;
         margin-bottom: 40px;
         position: relative;
     }
-    .container {
+    .container-home {
         width: 100%;
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
-        .row {
+        .container-home-content {
             display: flex;
             flex-wrap: wrap;
             margin-right: -15px;
             margin-left: -15px;
-            .col-fix {
+            .content {
                 position: relative;
                 width: 100%;
                 padding-right: 15px;
                 padding-left: 15px;
             }
-            .left-text {
+            .left-side {
                 position: relative;
                 align-self: center;
                 margin-top: 35%;
@@ -129,29 +96,29 @@ $secondary: #6c757d;
     }
 }
 @media (max-width: 1320px) {
-    .welcome-area .header-text .left-text {
+    .welcome-area .header-text .left-side {
         margin-top: 50%;
     }
 }
 // responsive .container ===> 
 
 @media (min-width: 992px) {
-    .container {
+    .container-home {
         max-width: 960px;
     }
 }
 @media (min-width: 768px) {
-    .container {
+    .container-home {
         max-width: 720px;
     }
 }
 @media (min-width: 576px) {
-    .container {
+    .container-home {
        max-width: 540px;
     }
 }
 @media (min-width: 1200px) {
-    .container {
+    .container-home {
     max-width: 1140px;
     }
 }
@@ -159,24 +126,24 @@ $secondary: #6c757d;
 
 
 @media (min-width: 576px) {
-    .col-fix {
-        -ms-flex: 0 0 100%;
+    .content {
+        
         flex: 0 0 100%;
         max-width: 100%;
     }
 }
 @media (min-width: 768px) {
 
-    .col-fix {
-        -ms-flex: 0 0 100%;
+    .content {
+        
         flex: 0 0 100%;
         max-width: 100%;
     }
 }
 @media (min-width: 992px) {
 
-    .col-fix {
-        -ms-flex: 0 0 50%;
+    .content {
+       
         flex: 0 0 50%;
         max-width: 50%;
     }
