@@ -1,6 +1,7 @@
 .bg {
     width: 100%;
     height: 100vh;
+    max-height: 1006px;
     background-image: url(../images/left-bg-decor.png);
     background-repeat: no-repeat;
 }
@@ -19,14 +20,13 @@
     position: absolute;
     width: 1140px;
     height: 100%;
-    margin: 0 auto;
 }
 
 .feature__left{
     width: 40%;
     height: 100%;
     background-image: url(../images/left-image.png);
-    background-size: cover;
+    background-size: contain;
 }
 
 .feature__right{
@@ -66,21 +66,26 @@
 }
 
 @media (max-width: 1200px) {
+    .feature__container {
+        width: 97vh;
+        max-width: 2000px;
+    }
+
     .feature__left{
         width: 40%;
         height: 80%;
-        background-size:contain;
         background-repeat: no-repeat;
-        background-position: right;
-        margin-top: 2rem;
+        background-position: center;
+        margin-top: auto;
     }
   }
 
 @media (max-width: 991px) {
   
     .bg {
-      height: 150vh;
-    }
+        height: 170vh;
+        margin-bottom: 42vh;
+      }
   
     .feature__container {
       display: inline-block;
@@ -103,4 +108,11 @@
       left: 2rem;
       margin-top: 2rem;
     }
+  }
+
+  @media (max-height: 650px) {
+    .bg {
+        height: 170vh;
+        margin-bottom: 45vh;
+      }
   }
